@@ -1,3 +1,5 @@
+"use client"
+
 import Container from "./Container";
 import {MdPlayArrow}from "react-icons/md";
 
