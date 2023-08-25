@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  overflow-x: hidden;
+}
+.pBg{
+  background: #004635!important;
+}
+.pCl{
+  color: #004635!important;
+}
+.sBg{
+  background: #f7d663;
+}
+.sCl{
+  color: #f7d663;
+}
+
+.containers {
+  width: 90% !important;
+  max-width: 1200px;
+}
+
+.borderB {
+  border-bottom: 1px solid #fff;
+}
+
+.footerlogo {
+  height: 190px;
+  width: 400px;
+}
+
+.mrgin {
+  margin-top: 5px !important;
+  margin-left: 5px !important;
+  margin-bottom: 5px !important;
+  margin-right: 5px !important;
+  height: 78%;
+  width: 100%;
+}
+.manuside{
+  position:fixed;
+  width: 300px;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  padding: 20px 0;
+  z-index: 99;
+}
+.nabUl{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 40px;
+
+}
+.hero{
+  height: 570px;
+  width: 100%;
+}
+.vidioWrp{
+  width: 100vw!important;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.vidio{
+  width: 100vw!important;
+}
+
+
+
+
+
+
+
+
+.tras {
+  transform: translateX(-85%);
+  width: 300px;
+}
+
+.layout {
+  display: grid;
+  justify-content: space-between;
+  grid-template-areas:
+    "sideber content sideber"
+  ;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ddd;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffc800;
+}
