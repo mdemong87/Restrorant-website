@@ -1,8 +1,3 @@
-'use client'
-import Image from "next/image";
-import { useState } from "react";
-import smallsec from "../../public/jkj.jpg";
-import productIkmage from "../../public/tee.png";
 import Container from "./Container";
 import {MdPlayArrow}from "react-icons/md";
 
@@ -17,7 +12,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 export default function Favourites() {
-    const swiper=useSwiper();
+    // const swiper=useSwiper();
 
     return (
         <div className="w-full text-black">
@@ -76,10 +71,10 @@ export default function Favourites() {
 
 
                         <div className="flex justify-center items-center gap-8 m-5">
-                            <div  onClick={() => swiper.slidePrev()} className="pBg rounded-md rotate-180 cursor-pointer">
+                            <div className="pBg rounded-md rotate-180 cursor-pointer">
                                 <MdPlayArrow className="text-4xl text-white"/>
                             </div>
-                            <div  onClick={() => swiper.slidePrev()}className="pBg rounded-md cursor-pointer">
+                            <div className="pBg rounded-md cursor-pointer">
                                 <MdPlayArrow className="text-4xl text-white"/>
                             </div>
                         </div>
